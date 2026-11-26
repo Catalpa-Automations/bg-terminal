@@ -1,9 +1,9 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-26T02:08:43Z",
+  "updated_utc": "2026-11-26T02:13:43Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 12,
+  "summary_age_s": 279,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
@@ -306,10 +306,12 @@ window.BG_DATA = {
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-26T01:40:56Z",
-    "event": "recheck",
-    "trade_allowed": true,
-    "status_age": 3.511003255844116
+    "utc": "2026-11-26T02:13:37Z",
+    "event": "skip_stale_status",
+    "status": [
+      272.604389667511,
+      true
+    ]
   },
   "live_entries_logged": 14
 };
