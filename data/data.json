@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T06:48:43Z",
+  "updated_utc": "2026-11-26T06:53:43Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
@@ -306,10 +306,10 @@
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-26T06:23:37Z",
+    "utc": "2026-11-26T06:53:38Z",
     "event": "skip_stale_status",
     "status": [
-      15273.24251651764,
+      70.61647963523865,
       true
     ]
   },
