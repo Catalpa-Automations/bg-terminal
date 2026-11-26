@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-11-26T10:58:43Z",
+  "updated_utc": "2026-11-26T11:03:44Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 6,
+  "summary_age_s": 3,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
