@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-11-26T16:58:54Z",
+  "updated_utc": "2026-11-26T17:03:54Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 1453,
+  "summary_age_s": 1754,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
@@ -306,10 +306,10 @@
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-26T16:57:36Z",
+    "utc": "2026-11-26T17:03:36Z",
     "event": "skip_stale_status",
     "status": [
-      1376.214364528656,
+      1736.2352921962738,
       true
     ]
   },
