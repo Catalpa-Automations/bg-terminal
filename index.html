@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BG PROP FIRM GURU // KPI TERMINAL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot" id="status-dot"></span>
+      <span class="title">BG PROP FIRM GURU</span>
+      <span class="badge" id="mode-badge">LOADING</span>
+    </div>
+    <div class="meta">
+      <span id="last-run">Updated: --</span>
+      <button id="refresh-btn" title="Reload">↻</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="card kpi-strip">
+      <div class="kpi"><span class="k-label">BALANCE / EQUITY</span><span class="k-val" id="k-bal">--</span></div>
+      <div class="kpi"><span class="k-label">NET REALIZED P&amp;L</span><span class="k-val" id="k-net">--</span></div>
+      <div class="kpi"><span class="k-label">WIN RATE (W/L)</span><span class="k-val" id="k-wr">--</span></div>
+      <div class="kpi"><span class="k-label">PROFIT FACTOR</span><span class="k-val" id="k-pf">--</span></div>
+      <div class="kpi"><span class="k-label">TARGET GAP ($5,500)</span><span class="k-val" id="k-gap">--</span></div>
+      <div class="kpi"><span class="k-label">DAILY FLOOR ROOM</span><span class="k-val" id="k-daily">--</span></div>
+      <div class="kpi"><span class="k-label">TRAILING FLOOR ROOM</span><span class="k-val" id="k-trail">--</span></div>
+      <div class="kpi"><span class="k-label">CONSISTENCY (&lt;50%)</span><span class="k-val" id="k-cons">--</span></div>
+    </section>
+
+    <section class="card span-2">
+      <div class="card-head">
+        <h2>CUMULATIVE REALIZED P&amp;L CURVE</h2>
+        <span class="sub" id="floor-line">Daily floor: -- · Trailing floor: --</span>
+      </div>
+      <div class="chart-wrap">
+        <svg id="pnl-chart" viewBox="0 0 600 180" preserveAspectRatio="none"></svg>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>ACCRA TRADING DAYS (22:00 RESET)</h2>
+        <span class="sub" id="best-day-sub">--</span>
+      </div>
+      <table>
+        <thead><tr><th>Day</th><th>Net P&amp;L</th></tr></thead>
+        <tbody id="days-body"></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>BOT HEALTH &amp; STRATEGIES</h2>
+        <span class="sub" id="sum-age">--</span>
+      </div>
+      <div class="pill-row" id="health-pills"></div>
+      <div class="card-head" style="margin-top:14px;">
+        <h2>RECENT ENTRY REJECTIONS</h2>
+      </div>
+      <table>
+        <thead><tr><th>Symbol</th><th>Reason</th></tr></thead>
+        <tbody id="rej-body"></tbody>
+      </table>
+    </section>
+
+    <section class="card span-2">
+      <div class="card-head">
+        <h2>RECENT LIVE CLOSED TRADES</h2>
+        <span class="sub" id="trades-count">--</span>
+      </div>
+      <table>
+        <thead><tr><th>Exit UTC</th><th>Symbol</th><th>Side</th><th>Variant</th><th>Lots</th><th>Net USD</th><th>R</th><th>Reason</th></tr></thead>
+        <tbody id="trades-body"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="data/data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
