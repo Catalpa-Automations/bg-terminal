@@ -1,9 +1,9 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-27T21:53:43Z",
+  "updated_utc": "2026-11-27T22:08:43Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 16,
+  "summary_age_s": 15,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
@@ -18,8 +18,8 @@ window.BG_DATA = {
     "profit_factor": 1.13,
     "target": 5500.0,
     "to_target": 500.0,
-    "daily_floor": 4808.57,
-    "room_daily": 191.43,
+    "daily_floor": 4805.98,
+    "room_daily": 194.02,
     "trailing_floor": 4837.7,
     "room_trailing": 162.3,
     "best_day": "2026-11-10",
@@ -362,11 +362,11 @@ window.BG_DATA = {
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-27T21:39:37Z",
+    "utc": "2026-11-27T22:05:38Z",
     "event": "skip_stale_status",
     "status": [
-      6.805569410324097,
-      null
+      491.6959664821625,
+      true
     ]
   },
   "live_entries_logged": 15
