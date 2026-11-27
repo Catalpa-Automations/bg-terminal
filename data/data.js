@@ -1,9 +1,9 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-27T20:48:44Z",
+  "updated_utc": "2026-11-27T20:53:46Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 17,
+  "summary_age_s": 16,
   "mode": "LIVE",
   "trade_allowed": null,
   "orb_error": "TypeError: '<' not supported between instances of 'NoneType' and 'str'",
@@ -347,10 +347,10 @@ window.BG_DATA = {
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-27T20:47:36Z",
+    "utc": "2026-11-27T20:53:38Z",
     "event": "skip_stale_status",
     "status": [
-      12.5336594581604,
+      8.156641244888306,
       null
     ]
   },
