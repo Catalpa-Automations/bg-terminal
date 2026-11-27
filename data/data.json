@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-11-27T21:18:44Z",
+  "updated_utc": "2026-11-27T21:23:44Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 11,
+  "summary_age_s": 5,
   "mode": "LIVE",
   "trade_allowed": null,
   "orb_error": "TypeError: '<' not supported between instances of 'NoneType' and 'str'",
@@ -347,10 +347,10 @@
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-27T21:17:36Z",
+    "utc": "2026-11-27T21:23:37Z",
     "event": "skip_stale_status",
     "status": [
-      6.839845418930054,
+      13.992420434951782,
       null
     ]
   },
