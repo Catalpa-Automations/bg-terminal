@@ -1,5 +1,5 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-27T11:33:43Z",
+  "updated_utc": "2026-11-27T11:38:43Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
