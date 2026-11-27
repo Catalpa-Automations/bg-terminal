@@ -1,9 +1,9 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-27T16:18:43Z",
+  "updated_utc": "2026-11-27T16:23:44Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 0,
+  "summary_age_s": 11,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
