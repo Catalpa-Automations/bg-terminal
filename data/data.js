@@ -1,21 +1,21 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-27T21:38:44Z",
+  "updated_utc": "2026-11-27T21:43:43Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
   "summary_age_s": 2,
   "mode": "LIVE",
-  "trade_allowed": null,
-  "orb_error": "TypeError: '<' not supported between instances of 'NoneType' and 'str'",
+  "trade_allowed": true,
+  "orb_error": null,
   "kpis": {
     "balance": 5000.0,
     "equity": 5000.0,
-    "net_pnl": 5.98,
-    "win_rate": 37.5,
-    "wins": 6,
+    "net_pnl": 20.89,
+    "win_rate": 41.2,
+    "wins": 7,
     "losses": 10,
-    "total_trades": 16,
-    "profit_factor": 1.04,
+    "total_trades": 17,
+    "profit_factor": 1.13,
     "target": 5500.0,
     "to_target": 500.0,
     "daily_floor": 4808.57,
@@ -23,7 +23,7 @@ window.BG_DATA = {
     "trailing_floor": 4837.7,
     "room_trailing": 162.3,
     "best_day": "2026-11-10",
-    "best_day_pct": 1071.1,
+    "best_day_pct": 306.6,
     "consistency_met": false
   },
   "daily_accra": [
@@ -57,7 +57,7 @@ window.BG_DATA = {
     },
     {
       "day": "2026-11-27",
-      "pnl": -2.59
+      "pnl": 12.32
     }
   ],
   "curve": [
@@ -128,9 +128,24 @@ window.BG_DATA = {
     {
       "t": "2026-11-27 20:00",
       "cum": 5.98
+    },
+    {
+      "t": "2026-11-27 20:00",
+      "cum": 20.89
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "EURUSD",
+      "side": "sell",
+      "variant": "main_b0_s1.5",
+      "lots": 0.07,
+      "usd": 14.91,
+      "R": 0.78,
+      "reason": "broker_close",
+      "held_s": 38397,
+      "exit_utc": "2026-11-27T20:00:03+00:00"
+    },
     {
       "symbol": "EURUSD",
       "side": "sell",
@@ -347,10 +362,10 @@ window.BG_DATA = {
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-27T21:37:37Z",
+    "utc": "2026-11-27T21:39:37Z",
     "event": "skip_stale_status",
     "status": [
-      12.571515560150146,
+      6.805569410324097,
       null
     ]
   },
