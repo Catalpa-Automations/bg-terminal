@@ -1,9 +1,9 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-27T09:18:44Z",
+  "updated_utc": "2026-11-27T09:23:44Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 13,
+  "summary_age_s": 193,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
@@ -276,6 +276,13 @@ window.BG_DATA = {
   ],
   "rejections": [
     {
+      "utc": 1795771206.6294048,
+      "symbol": "EURUSD",
+      "reasons": [
+        "live_order_failed"
+      ]
+    },
+    {
       "utc": 1794563104.7841601,
       "symbol": "EURUSD",
       "reasons": [
@@ -306,10 +313,10 @@ window.BG_DATA = {
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-27T07:03:42Z",
+    "utc": "2026-11-27T09:23:36Z",
     "event": "skip_stale_status",
     "status": [
-      12041.511995792389,
+      185.96327233314514,
       true
     ]
   },
