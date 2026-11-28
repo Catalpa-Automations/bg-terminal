@@ -1,9 +1,9 @@
 window.BG_DATA = {
-  "updated_utc": "2026-11-28T07:58:43Z",
+  "updated_utc": "2026-11-28T08:03:47Z",
   "live": true,
   "phase": "evaluation",
   "kill_file": false,
-  "summary_age_s": 6055,
+  "summary_age_s": 6359,
   "mode": "LIVE",
   "trade_allowed": true,
   "orb_error": null,
@@ -362,10 +362,10 @@ window.BG_DATA = {
     }
   },
   "watchdog_last": {
-    "utc": "2026-11-28T07:57:37Z",
+    "utc": "2026-11-28T08:03:37Z",
     "event": "skip_stale_status",
     "status": [
-      5989.256533622742,
+      6349.062428236008,
       true
     ]
   },
